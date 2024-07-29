@@ -52,7 +52,8 @@ RUN set -eux; \
 		uuid-dev \
 		wget \
 		xz-utils \
-		zlib1g-dev \
+		zlib1g-dev \                
+                ffmpeg \
 	; \
 	\
 	wget -O python.tar.xz "https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz"; \
