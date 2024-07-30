@@ -47,4 +47,4 @@ jobs:
         run: cd ./3.9/slim-bullseye && docker build -t standardcore/python-ffmpeg:${{ env.IMAGE_TAG }} .
 
       - name: PushDockerImage
-        run: docker push standardcore/python-ffmpeg:${{ env.IMAGE_TAG }} .
+        run: docker push standardcore/python-ffmpeg:${{ env.IMAGE_TAG }}
